@@ -1,4 +1,5 @@
 function skillsMember(){
+    console.log("e");
     return {
         restrict: 'E',
         templateUrl: 'modules/skills/views/member.html',
