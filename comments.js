@@ -90,6 +90,7 @@ var app = http.createServer(function(request, response){
                     }
                     response.writeHead(302, {Location: `/?id=${result.insertId}`});
                     response.end();
+                    console.log(4);
                 }
             )
         });
